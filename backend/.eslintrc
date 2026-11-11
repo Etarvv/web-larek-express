@@ -20,7 +20,7 @@
   },
   "rules": {
     "no-shadow": "off",
-    "@typescript-eslint/no-shadow": "warn",
+    "@typescript-eslint/no-shadow": ["error"],
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -36,14 +36,6 @@
       }
     ],
     "no-unused-vars": "off",
-    "@typescript-eslint/no-unused-vars": [
-      "error",
-      {
-        "args": "all",
-        "argsIgnorePattern": "^_",
-        "varsIgnorePattern": "^_",
-        "caughtErrorsIgnorePattern": "^_"
-      }
-    ]
+    "@typescript-eslint/no-unused-vars": "error"
   }
 }
