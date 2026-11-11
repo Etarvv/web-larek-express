@@ -9,7 +9,7 @@ node_modules
 # Optional npm cache directory
 .npm
 
-# Optional REPL history
+# IDE and OS files
 .DS_Store
 .idea
 .vscode
@@ -17,4 +17,12 @@ node_modules
 # Typescript build
 dist
 temp
+
+# Environment variables
 .env
+
+node_modules
+*.7z
+.env
+*.log
+dist
